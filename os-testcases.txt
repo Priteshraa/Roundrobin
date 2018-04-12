@@ -1,0 +1,130 @@
+
+TEST CASES-1
+
+Enter the no of process:6
+Enter Process name:
+p1
+Enter Arival time:
+0
+Enter burst time:
+4
+Enter Process name:
+p2
+Enter Arival time:
+1
+Enter burst time:
+5
+Enter Process name:
+p3
+Enter Arival time:
+2
+Enter burst time:
+2
+Enter Process name:
+p4
+Enter Arival time:
+3
+Enter burst time:
+1
+Enter Process name:
+p5
+Enter Arival time:
+4
+Enter burst time:
+6
+Enter Process name:
+p6
+Enter Arival time:
+6
+Enter burst time:
+3
+Enter quantum time:2
+READY QUEUE     COMPLITION TIME
+p1              2
+p2              4
+p3              6
+p1              8
+p4              9
+p5              11
+p2              13
+p6              15
+p5              17
+p2              18
+p6              19
+p5              21
+PROCESS COMPLETION TIME TURNAROUND TIME WAITING TIME
+p1              8               8               4
+p2              18              17              12
+p3              6               4               2
+p4              9               6               5
+p5              21              17              11
+p6              19              13              10
+AVERAGE TURNAROUND TIME=10.833333333333334
+AVERAGE WAITING TIME=7.333333333333333
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TEST CASE 2-
+
+
+Enter the no of process:6
+Enter Process name:
+P1
+Enter Arival time:
+5
+Enter burst time:
+5
+Enter Process name:
+P2
+Enter Arival time:
+4
+Enter burst time:
+6
+Enter Process name:
+P3
+Enter Arival time:
+3
+Enter burst time:
+7
+Enter Process name:
+P4
+Enter Arival time:
+1
+Enter burst time:
+9
+Enter Process name:
+P5
+Enter Arival time:
+2
+Enter burst time:
+2
+Enter Process name:
+P6
+Enter Arival time:
+6
+Enter burst time:
+3
+Enter quantum time:3
+READY QUEUE     COMPLITION TIME
+P4              4
+P5              6
+P3              9
+P2              12
+P4              15
+P1              18
+P6              21
+P3              24
+P2              27
+P4              30
+P1              32
+P3              33
+PROCESS COMPLETION TIME TURNAROUND TIME WAITING TIME
+P1              32              27              22
+P2              27              23              17
+P3              33              30              23
+P4              30              29              20
+P5              6               4               2
+P6              21              15              12
+AVERAGE TURNAROUND TIME=21.333333333333332
+AVERAGE WAITING TIME=16.0
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
